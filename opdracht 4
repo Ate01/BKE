@@ -20,6 +20,6 @@ my_agent.learning = False
  
 validation_agent = RandomAgent()
  
-validation_result = validate(agent_x=my_agent, agent_o=validation_agent, iterations=100)
+validation_result = validate(agent_x=my_agent, agent_o=validation_agent, iterations=50)
  
 plot_validation(validation_result)
